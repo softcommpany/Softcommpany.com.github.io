@@ -15,7 +15,7 @@ if (solicitarurl == "https://softcommpany.github.io/Softcommpany.com.github.io/p
 
 	//resgistros de definiciongame para windows/
 
-    GameInfromacionWindows("Texture/IconsGame/FortniqueGame.png", "Fortnique", "https://drive.google.com/file/d/1NSnzqK90a287b3LDSjGeOUQpfbegmNHU/view?usp=drive_link", "publico")
+    GameInfromacionWindows("Texture/IconsGame/fortniquegame.png", "Fortnique", "https://drive.google.com/file/d/1NSnzqK90a287b3LDSjGeOUQpfbegmNHU/view?usp=drive_link", "publico")
     GameInfromacionWindows("Texture/IconsGame/gameiconodefault.png", "sin definir", "", "privado")
 
 
@@ -36,7 +36,7 @@ if (solicitarurl == "https://softcommpany.github.io/Softcommpany.com.github.io/p
 		}
 
 		//registros de definiciongame para android/
-		GameInformacionAndroid("Texture/IconsGame/FortniqueGame.png", "Fortnique", "https://drive.google.com/file/d/1GXlcgvx1HqvmdgZtxUUr10g11VM6ygLo/view?usp=drive_link", "publico")
+		GameInformacionAndroid("Texture/IconsGame/fortniquegame.png", "Fortnique", "https://drive.google.com/file/d/1GXlcgvx1HqvmdgZtxUUr10g11VM6ygLo/view?usp=drive_link", "publico")
 
 
 	} else {document.getElementById('Allgamebox').innerHTML += "NO HAY CONTENIDO PARA MOSTRAR HAY, PUEDE QUE NO AN PUBLICADO NADA AUN."}
