@@ -1,7 +1,12 @@
 body 
 {
 	text-align: center;
-	font-family: cursive;
+	font-family: FuenteNormalWeb;
+}
+
+@font-face {
+  font-family: 'FuenteNormalWeb';
+  src: url("Font/Kanit-Regular.ttf");
 }
 
 .beginbox

@@ -1,9 +1,14 @@
 body
 {
 	text-align: center;
-	font-family: cursive;
+	font-family: FuenteNormalWeb;
 	background-image: url(Texture/Background/fotolusido.gif);
 	background-size: 1500px;
+}
+
+@font-face {
+  font-family: 'FuenteNormalWeb';
+  src: url("Font/Kanit-Regular.ttf");
 }
 
 .beginbox
