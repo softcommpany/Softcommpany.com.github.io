@@ -1,0 +1,99 @@
+body
+{
+	text-align: center;
+	font-family: cursive;
+	background-image: url(Texture/Background/fotolusido.gif);
+	background-size: 1500px;
+}
+
+.beginbox
+{
+	background-image: url(Texture/Background/azulfondo.jpg);
+	background-size: 1400px;
+	background-position: center;
+	width: 1400px;
+	height: 100px;
+	margin: auto;
+	color: white;
+	text-shadow: black 0 2px;
+	border-radius: 20px;
+}
+
+#Allgamebox
+{
+	background-image: url(Texture/Background/fondogalactico.jpg);
+	background-size: 1400px;
+	width: 1400px;
+	height: 900px;
+	margin: auto;
+	font-size: 25px;
+	color: white;
+	border-radius: 100px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.endbox
+{
+	background-color: wheat;
+	width: 1400;
+	margin: auto;
+}
+
+.GameBox
+{
+	background-color: white;
+	width: 150px;
+	height: 150px;
+	margin: 30px;
+	border-radius: 20px;
+}
+
+.IconoGame
+{
+	width: 96px;
+	height: 96px;
+	display: block;
+	margin: auto;
+	border-radius: 10px;
+}
+
+.PublicCheck
+{
+	width: 20px;
+	height: 20px;
+	display: inline;
+}
+
+.gamelink
+{
+	display: inline;
+}
+
+@media (max-width: 600px)
+{
+	body
+	{
+		background-size: 500px;
+	}
+
+	.beginbox
+	{
+		background-size: 400px;
+		width: 400px;
+	}
+
+	#Allgamebox
+	{
+		background-size: 400px;
+		width: 400px;
+		height: 400px;
+		font-size: 20px;
+	}
+
+	.GameBox
+	{
+		width: 120px;
+		height: 120px;
+	}
+}

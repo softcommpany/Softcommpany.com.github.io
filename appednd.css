@@ -1,0 +1,105 @@
+body 
+{
+	text-align: center;
+	font-family: cursive;
+}
+
+.beginbox
+{
+	background-image: url(Texture/Background/Background01.jpg);
+	background-size: 1300px;
+	background-position: center;
+	width: 1300px;
+	height: 200px;
+	margin: auto;
+	font-size: 30px;
+	color: white;
+	text-shadow: black 0 -5px;
+}
+
+.centerbox
+{
+	background-color: grey;
+	margin: auto;
+	width: 800px;
+	height: 300px;
+	display: flex;
+	border-radius: 10px;
+}
+
+.endbox
+{
+	background-color: lightyellow;
+	font-size: 30px;
+	width: 1300px;
+	margin: auto;
+}
+
+.iconodive
+{
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	border-radius: 20px;
+}
+
+.boxdivice
+{
+	background-color: white;
+	border-radius: 20px;
+	width: 250px;
+	height: 250px;
+	margin: auto;
+}
+
+#donatepaypal
+{
+	background-image: url(Texture/Paypallogo.png);
+	background-position: center;
+	background-size: 80px;
+	width: 200px;
+	height: 200px;
+	color: transparent;
+}
+
+#joindiscrod
+{
+	background-image: url(Texture/iconodiscrodia.png);
+	background-position: center;
+	background-size: 60px;
+	width: 60px;
+	height: 60px;
+	color: transparent;
+}
+
+@media (max-width: 600px)
+{
+	.beginbox
+	{
+		background-size: 600px;
+		font-size: 16px;
+		width: 400px;
+	}
+
+	.centerbox
+	{
+		width: 300px;
+	}
+
+	.endbox
+	{
+		width: 400px;
+	}
+
+	.iconodive
+	{
+		width: 80px;
+		height: 80px;
+	}
+
+	.boxdivice
+	{
+		width: 100px;
+		height: 150px;
+	}
+}
