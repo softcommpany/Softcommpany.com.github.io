@@ -1,6 +1,6 @@
 var solicitarurl = window.location.href;
 
-if (solicitarurl == "file:///C:/Users/Anonimus/Documents/GitHub/Softcommpany.com/pagewindowsgame.html")
+if (solicitarurl == "https://softcommpany.github.io/Softcommpany.com.github.io/pagewindowsgame.html")
 {
 	function GameInfromacionWindows(Icono, Name, LinkGame, Public, Presio)
 	{
@@ -22,7 +22,7 @@ if (solicitarurl == "file:///C:/Users/Anonimus/Documents/GitHub/Softcommpany.com
 
 } else 
 {
-	if (solicitarurl == "file:///C:/Users/Anonimus/Documents/GitHub/Softcommpany.com/pageandroidgame.html") 
+	if (solicitarurl == "https://softcommpany.github.io/Softcommpany.com.github.io/pageandroidgame.html") 
 	{
 		function GameInformacionAndroid(Icono, Name, LinkGame, Public, Presio) 
 		{
