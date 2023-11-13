@@ -107,4 +107,11 @@ body
 		width: 100px;
 		height: 150px;
 	}
+
+	#videodemostrativo
+	{
+		width: 350px;
+		height: 250px;
+		border-radius: 20px;
+	}
 }
