@@ -28,8 +28,8 @@ body
 	margin: auto;
 	width: 800px;
 	height: 300px;
-	display: flex;
-	border-radius: 10px;
+	/*display: flex;
+	border-radius: 10px;*/
 }
 
 .endbox
